@@ -1,0 +1,32 @@
+GIT
+  remote: git://github.com/ruby-concurrency/concurrent-ruby.git
+  revision: 5e2ae69322eddea5b28ef5cb53bb327c697f6f02
+  specs:
+    concurrent-ruby (0.8.0)
+      ref (~> 1.0, >= 1.0.5)
+    concurrent-ruby-ext (0.8.0)
+      concurrent-ruby (~> 0.8.0)
+
+PATH
+  remote: .
+  specs:
+    crdt (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    hamster (1.0.1.pre.rc2)
+    minitest (5.5.1)
+    rake (10.4.2)
+    ref (1.0.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  concurrent-ruby!
+  concurrent-ruby-ext
+  crdt!
+  hamster (= 1.0.1.pre.rc2)
+  minitest
+  rake
